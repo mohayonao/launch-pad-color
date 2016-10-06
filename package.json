@@ -1,0 +1,33 @@
+{
+  "name": "launch-pad-color",
+  "description": "color code of Novation LaunchPad",
+  "version": "0.1.0",
+  "author": "Nao Yonamine <mohayonao@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/mohayonao/launch-pad-color/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "files": [
+    "package.json",
+    "README.md",
+    "index.js"
+  ],
+  "homepage": "https://github.com/mohayonao/launch-pad-color/",
+  "keywords": [
+    "color",
+    "launchpad"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mohayonao/launch-pad-color.git"
+  },
+  "scripts": {
+    "clean": "rm -rf npm-debug.log",
+    "postversion": "git push && git push --tags && npm run clean",
+    "prepublish": "npm run clean",
+    "preversion": "npm run clean"
+  }
+}
