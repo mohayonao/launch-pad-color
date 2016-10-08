@@ -16,15 +16,15 @@ npm install --save launch-pad-color
 
 ## Update!!
 
-The set of color code has been extracted from photos with sloppy program.
-I'm dissatisfied with this.
+The set of color code has been extracted with sloppy program.
 If you can replace to more better set (by manually or automatically), please pull-request.
 
 | index   | how pick color            |
 |:-------:|---------------------------|
-|   0- 59 | photo                     |
+|   0-  3 | manually                  |
+|   4- 59 | calculate from HSV        |
 |  60-119 | capture from Ableton Live |
-| 120-127 | photo                     |
+| 120-127 | calculate from HSV        |
 
 ## License
 
