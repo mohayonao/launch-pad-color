@@ -2,7 +2,7 @@ const Color = require("color"); // npm install color
 
 const H = [   6,  78,  54,  30 ];
 const S = [  96,  96 ];
-const V = [  90,  50 ];
+const V = [  95,  70 ];
 
 const colors = [];
 

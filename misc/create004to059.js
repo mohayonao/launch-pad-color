@@ -1,7 +1,7 @@
 const Color = require("color"); // npm install color
 
-const S = [  32,  96,  96,  96 ];
-const V = [ 100, 100,  80,  60 ];
+const S = [  48,  96,  96,  96 ];
+const V = [ 100, 100,  90,  80 ];
 
 const colors = [];
 
