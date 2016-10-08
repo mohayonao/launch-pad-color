@@ -22,7 +22,7 @@ def pick_color(filename):
             cv2.resize(im0[y2-14:y2-2, x1+2:x2-2], (1, 1))[0, 0],
         ] ], np.uint8), (1, 1))[0, 0]
 
-        colors.append("#" + format(sum(x << (i * 8) for i, x in enumerate(color)), '06x'))
+        colors.append("#" + format(sum(int(((x/256)**2)*256) << (i * 8) for i, x in enumerate(color)), '06x'))
 
         if DEBUG:
             im0[y1+16:y2-16, x1+16:x2-16] = color

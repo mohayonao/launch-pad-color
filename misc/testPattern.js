@@ -11,12 +11,13 @@ const LaunchPadD1 = [
   0x0B, 0x0C, 0x0D, 0x0E, 0x0F, 0x10, 0x11, 0x12,
 ];
 
+const x = 1;
 const output = new midi.output();
 
 output.openPort(0);
 
 LaunchPadD1.forEach((d1, i) => {
-  output.sendMessage([ 0x90, d1, i + 0 ]);
+  output.sendMessage([ 0x90, d1, i + 64 * x ]);
 });
 
 output.closePort();
