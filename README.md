@@ -24,7 +24,8 @@ If you can replace to more better set (by manually or automatically), please pul
 |   0-  3 | manually                  |
 |   4- 59 | calculate from HSV        |
 |  60-119 | capture from Ableton Live |
-| 120-127 | calculate from HSV        |
+| 120-125 | calculate from HSV        |
+| 126-127 | manually                  |
 
 ## License
 

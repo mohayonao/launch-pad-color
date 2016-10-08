@@ -16,5 +16,5 @@ module.exports = [
   "#ffa601", "#fff200", "#e3f600", "#dcc500", "#bf9e5f", "#88b57b", "#86c2ba", "#9ab3c5",
   "#84a5c3", "#c78b7a", "#f43c7f", "#ff93a5", "#ffa36f", "#ffef9a", "#d2e594", "#bad16f",
   "#a9a9a9", "#d3fee0", "#ccf1f9", "#b9c0e4", "#cdbae5", "#d0d0d0", "#dfe6e5", "#ffffff",
-  "#f2210a", "#b31807", "#acf20a", "#7fb307", "#f2db0a", "#b3a107", "#f27e0a", "#b35d07",
+  "#f2210a", "#bf1a08", "#acf20a", "#88bf08", "#f2db0a", "#bfad08", "#f7a409", "#e06b41",
 ];
